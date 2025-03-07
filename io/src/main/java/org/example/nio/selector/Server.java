@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.util.Set;
 
-public class Sever {
+public class Server {
 
     public static void main(String[] args) throws IOException {
         ServerSocketChannel channel = ServerSocketChannel.open();
